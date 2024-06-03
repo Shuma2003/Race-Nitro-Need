@@ -1,0 +1,78 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+/* Стили шапки */
+header {
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Стили контента */
+main {
+    padding: 20px 0;
+}
+
+.support-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.support-option {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.support-option i {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Стили футера */
+footer {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+a.btn-primary{
+    background-color: #03376e;
+    color: white;
+text-decoration: none;
+display: flex;
+flex: 1;
+margin-top: 30px;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+}
+P{
+    font-size: 20px;
+    font-weight: 600;
+}

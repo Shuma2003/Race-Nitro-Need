@@ -1,0 +1,48 @@
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+.rent-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #f06, #f90); /* Градиент */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Тень */
+  transition: all 0.3s ease; /* Плавный переход */
+}
+
+.rent-button:hover {
+  transform: translateY(-3px); /* Подъем при наведении */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Увеличение тени */
+}

@@ -1,0 +1,10 @@
+.carousel { position: relative; width: 100%; overflow: hidden; }
+
+.carousel-container { display: flex; transition: transform 0.5s ease; }
+
+.carousel img { width: 80%; }
+
+ .carousel-next { position: absolute; top: 50%; transform: translateY(-50%); background-color: #333; color: #fff; padding: 10px 20px; border: none; cursor: pointer; text-align: center; justify-content: center;display: flex; font-size: 20px; word-spacing: 10px; right:-500px; ;}
+
+.carousel-prev { left: 10px; }
+
